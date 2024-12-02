@@ -1,0 +1,40 @@
+.Navbar{
+    /* border: 2px solid black; */
+    height: 100px;
+}
+nav{
+    border: 2px solid black;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    margin: 0;
+    padding: 0;
+    /* border: 2px solid red; */
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2em;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul li a:hover{
+    color: #FFA07A;
+}
+
+.portfolio{
+    margin-top: 2px;
+    border: 2px solid sandybrown;
+}
+.about-me{
+    border: 2px solid rebeccapurple;
+    height: 50em;
+}
